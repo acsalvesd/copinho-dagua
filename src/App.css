@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App-water {
+  height: 20vmin;
+  pointer-events: none;
+  color: #61dafb;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  gap: 2rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form-copo input {
+  font-family: 'Montserrat', sans-serif;
+  padding: 1rem;
+  border: none;
+}
+
+.form-copo .btn-ml {
+  border-radius: 1rem 0 0 1rem;
+  color: #282c34;
+}
+
+.form-copo .btn-submit{
+  background-color: #61dafb;
+  color: #282c34;
+  font-weight: 600;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.qtd-copo {
+  font-size: 3rem;
+}
